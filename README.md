@@ -29,7 +29,7 @@ Thanks to @zachs78 and @thefiredragon for previous repos I built this from.
 |SD Card Slot|Not Working|
 |Screen brightness|Working, hotkeys fn+S/fn+B to decrease/increase brightness|
 |Built-in Wifi|Working|
-|Built-in Bluetooth|Semi-working, AirDrop/Handoff is not currently working|
+|Built-in Bluetooth|Semi-working, AirDrop is not currently working|
 |Dell USB3.1 dock|Working|
 |RTL8153 USB Ethernet on Dell dock|Working|
 |Other peripherals on Dell dock|Working|
