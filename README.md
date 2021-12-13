@@ -34,7 +34,7 @@ Thanks to @zachs78 and @thefiredragon for previous repos I built this from.
 |RTL8153 USB Ethernet on Dell dock|Working|
 |Other peripherals on Dell dock|Working|
 |Built-in webcam|Working|
-|Sleep|Dell BIOS bug (Enable "block sleep" in BIOS to disable S3 for now)|
+|Sleep|Dell BIOS bug (see below to block sleep)|
 
 ---
 
@@ -43,7 +43,6 @@ Thanks to @zachs78 and @thefiredragon for previous repos I built this from.
 Disable the following
  - VT-d
  - TPM
- - Sleep (Enable block sleep)
  - Secure boot
  - Disable CFG Lock (via modGRUBShell)
 
@@ -85,6 +84,12 @@ Manufacturers such as Dell and Lenovo have very stupidly followed Microsoft's ad
 The bigger issue here is that "modern standby" just does not work on Windows itself. The laptop never sleeps if you have background apps running - these days, they *always* receive notifications/messages. We'll need to close the apps to prevent this and if you do, you might as well shutdown. Care to address the white elephant, Satya (not blessed with high IQ but this is common sense, surely)? We close the lid because we don't want to be disturbed. If it's urgent, perhaps pick up the phone? `¯\_(ツ)_/¯`
 
 TL;DR Sleep is broken for Dell XPS 9500 on Windows too. We can still opt-in to use S3 on Windows but Dell has chosen not to implement (or very incompetent at implementing) a working version of S3 resume in their BIOS for XPS 9500. When you resume, you'll get the same behavior as Catalina - Dell logo that never goes away until you hard reset.
+
+To avoid this behavior, we run the following command to block sleep from occurring in the first place. 
+```
+sudo pmset -a disablesleep 1
+```
+If you do not mind losing sleep in Windows as well, an alternative method is to enable "Block Sleep" in the BIOS Setup.
 
 ---
 
