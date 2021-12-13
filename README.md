@@ -34,7 +34,7 @@ Thanks to @zachs78 and @thefiredragon for previous repos I built this from.
 |RTL8153 USB Ethernet on Dell dock|Working|
 |Other peripherals on Dell dock|Working|
 |Built-in webcam|Working|
-|Sleep|Dell BIOS bug (see below to block sleep)|
+|Sleep|Dell BIOS bug (see [below](https://github.com/zspherez/Dell-XPS-9500-4K-UHD-Monterey#s3-sleep-issue-with-xps-9500-and-other-modern-laptops---credit-to-zachs78) to block sleep)|
 
 ---
 
@@ -75,7 +75,7 @@ If you update your BIOS, you may need to do this again but so far Dell has been 
 
 ---
 
-## S3 sleep issue with XPS 9500 and other "modern" laptops - credit to @zachs78
+## <a name="sleep"></a>S3 sleep issue with XPS 9500 and other "modern" laptops - credit to @zachs78
 
 Thanks to Microsoft, we are losing the ability to really put our laptops / desktop to sleep. In their infinite wisdom, they decided that we need our laptops and desktops to be "instant on" because we need to receive notifications such as emails and phone calls (hey Satya, heard of a smartphone?)
 
