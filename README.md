@@ -101,4 +101,4 @@ fn+S and fn+B hotkeys are currently used to adjust brightness.
 
 ## Undervolting
 
-This EFI comes preinstalled with VoltageShift kext. To undervolt, visit https://github.com/sicreative/VoltageShift (skip the kext loading part).
+This EFI comes preinstalled with VoltageShift kext. To undervolt, visit https://github.com/zspherez/VoltageShift (skip the kext loading part).
