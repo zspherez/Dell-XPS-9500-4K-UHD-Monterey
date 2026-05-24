@@ -1,3 +1,5 @@
+# I switched to native macOS, so am archiving this repo.
+
 # Dell XPS 9500 macOS Monterey
 
 This is an OpenCore EFI that allows you to install and boot macOS Monterey on your Dell XPS 15 9500 (2020).
